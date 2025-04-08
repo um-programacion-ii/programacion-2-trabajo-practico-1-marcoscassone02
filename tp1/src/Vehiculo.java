@@ -44,6 +44,8 @@ public class Vehiculo {
     public void setCapacidadCargaKg(double var1) {
        this.capacidadCargaKg = var1;
     }
- 
+
  }
+
+ 
  
