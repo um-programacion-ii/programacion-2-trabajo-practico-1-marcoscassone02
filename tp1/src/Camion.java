@@ -11,4 +11,9 @@ public class Camion extends Vehiculo {
     public boolean isTieneAcoplado() {
         return tieneAcoplado;
     }
+    
+    @Override
+    public String obtenerInformacion() {
+        return super.obtenerInformacion() + ", Tiene acoplado: " + (tieneAcoplado ? "Sí" : "No");
+    }
  }
