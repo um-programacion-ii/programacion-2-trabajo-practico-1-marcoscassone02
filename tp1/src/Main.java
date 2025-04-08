@@ -9,6 +9,7 @@ public class Main {
         Vehiculo var2 = new Vehiculo("XYZ789", "Chevrolet", 2021, 1200.0);
         Vehiculo var3 = new Vehiculo("LMN456", "Toyota", 2022, 1000.0);
         Vehiculo var4 = new Camion("CAM456", "Volvo", 2018, 5000.0, true);
+        Vehiculo var5 = new Auto("GHD326", "Fiat", 2010, 800, 5);
 
         VehiculoPrinter printer = new VehiculoPrinter();
 
@@ -19,6 +20,8 @@ public class Main {
         printer.imprimirInformacion(var3);
         System.out.println();
         printer.imprimirInformacion(var4);
+        System.out.println();
+        printer.imprimirInformacion(var5);
     }
 }
 
