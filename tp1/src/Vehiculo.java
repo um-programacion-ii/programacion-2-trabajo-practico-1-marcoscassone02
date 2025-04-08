@@ -12,6 +12,10 @@ public class Vehiculo {
        this.año = var3;
        this.capacidadCargaKg = var4;
     }
+
+    public String obtenerInformacion() {
+      return "Patente: " + patente + ", Marca: " + marca + ", Año: " + año + ", Capacidad: " + capacidadCargaKg;
+    }
  
     public String getPatente() {
        return this.patente;
@@ -44,6 +48,7 @@ public class Vehiculo {
     public void setCapacidadCargaKg(double var1) {
        this.capacidadCargaKg = var1;
     }
+
 
  }
 
