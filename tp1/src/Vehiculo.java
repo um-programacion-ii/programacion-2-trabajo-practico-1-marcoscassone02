@@ -45,12 +45,5 @@ public class Vehiculo {
        this.capacidadCargaKg = var1;
     }
  
-    public void mostrarInformacion() {
-       System.out.println("Vehículo:");
-       System.out.println("Patente: " + this.patente);
-       System.out.println("Marca: " + this.marca);
-       System.out.println("Año: " + this.año);
-       System.out.println("Capacidad de carga: " + this.capacidadCargaKg + " kg");
-    }
  }
  
