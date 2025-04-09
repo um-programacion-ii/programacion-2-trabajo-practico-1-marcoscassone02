@@ -1,6 +1,47 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
 
+## Marcos Cassone
+
+## Requisitos Previos
+.  Java JDK 17 o superior instalado.
+.  IDE de tu elección (Eclipse, VSC, etc.) o terminal para compilar y ejecutar.
+.  Git instalado para clonar el repositorio.
+
+## Instrucciones de compilado y ejecutado
+. Clonar Repo
+. Abrir IDE
+. Navegar hasta carpeta de codigo fuente
+      cd programacion_2_trabajo_practico_1_marcoscassone02/tp1/src
+. Compilar archivos
+      javac *.java
+. Ejecutar
+      java Main
+
+## Ejemplo de Uso
+Deberia aparecer esto en terminal:
+
+Patente: ABC123
+Marca: Toyota
+Año: 2023
+Peso: 1500.0
+Cantidad de pasajeros: 5
+
+Patente: DEF456
+Marca: Volvo
+Año: 2020
+Peso: 5000.0
+Tiene acoplado: Sí
+
+Patente: GHI789
+Marca: Ford
+Año: 2022
+Peso: 1300.0
+Cantidad de pasajeros: 4
+
+
+
+
 ## 📌 Objetivo General
 
 Desarrollar una aplicación en Java para gestionar vehículos de una empresa, aplicando los principios de programación orientada a objetos y los **primeros tres principios SOLID**:  
